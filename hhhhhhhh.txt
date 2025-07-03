@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>SPSS With Amna</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #f4f4f4;
+      color: #333;
+    }
+    header {
+      background: #0074D9;
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+    }
+    section {
+      padding: 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .services, .portfolio {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+    }
+    .card {
+      background: white;
+      border-radius: 10px;
+      padding: 15px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    img {
+      max-width: 100%;
+      border-radius: 5px;
+    }
+    .whatsapp-float {
+      position: fixed;
+      width: 60px;
+      height: 60px;
+      bottom: 20px;
+      right: 20px;
+      background-color: #25d366;
+      color: white;
+      border-radius: 50px;
+      text-align: center;
+      font-size: 30px;
+      box-shadow: 2px 2px 3px #999;
+      z-index: 100;
+    }
+    .whatsapp-float i {
+      margin-top: 16px;
+    }
+    footer {
+      background: #333;
+      color: white;
+      padding: 10px;
+      text-align: center;
+    }
+    h2 {
+      color: #0074D9;
+    }
+    @media (max-width: 768px) {
+      .services, .portfolio {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>SPSS With Amna</h1>
+    <p>Your Statistics and Data Analysis Expert</p>
+  </header>
+
+  <section>
+    <h2>About Me</h2>
+    <p>I’m Amna Batool, an M.Phil graduate in Statistics. I help students and professionals with SPSS, Excel, and customer data analysis. Whether you’re working on a thesis or business report, I’m here to make your data meaningful and presentable.</p>
+  </section>
+
+  <section>
+    <h2>Services</h2>
+    <div class="services">
+      <div class="card">
+        <h3>SPSS Data Analysis</h3>
+        <p>Perform descriptive, inferential, and regression analysis using SPSS.</p>
+      </div>
+      <div class="card">
+        <h3>Excel Visualization</h3>
+        <p>Build reports, dashboards, and beautiful charts in Excel.</p>
+      </div>
+      <div class="card">
+        <h3>Survey/Thesis Help</h3>
+        <p>Assistance with questionnaires, analysis, and interpretation.</p>
+      </div>
+      <div class="card">
+        <h3>Customer Data Reports</h3>
+        <p>Understand your business data using visual summaries.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>My Portfolio</h2>
+    <div class="portfolio">
+      <div class="card">
+        <img src="https://cdn.analyticsvidhya.com/wp-content/uploads/2022/03/Screenshot-2022-03-29-131356.png" alt="Sample Graph 1" />
+        <p>Example: SPSS output visualization</p>
+      </div>
+      <div class="card">
+        <img src="https://miro.medium.com/v2/resize:fit:1400/format:webp/1*pGmuabfcXYAfuXc-xogWHQ.png" alt="Sample Graph 2" />
+        <p>Example: Excel chart for customer data</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Contact Me</h2>
+    <p>📧 Email: <a href="mailto:batoolamna553@gmail.com">batoolamna553@gmail.com</a></p>
+    <p>📞 WhatsApp: <a href="https://wa.me/923427865787" target="_blank">Click to Message</a></p>
+  </section>
+
+  <a href="https://wa.me/923427865787" class="whatsapp-float" target="_blank">
+    <i>💬</i>
+  </a>
+
+  <footer>
+    <p>© 2025 SPSS With Amna | All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
